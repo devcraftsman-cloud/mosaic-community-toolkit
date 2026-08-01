@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MosaicCommunityEvent",
+  "description": "Standardized event schema for MOSAIC affiliated Madison tech groups.",
+  "type": "object",
+  "properties": {
+    "eventId": {
+      "type": "string",
+      "description": "Unique identifier for the event."
+    },
+    "primaryGroup": {
+      "type": "string",
+      "enum": ["CNMad", "AAIF", "DevFest", "WomenInTech", "MOSAIC"],
+      "description": "The lead host group."
+    },
+    "title": {
+      "type": "string",
+      "description": "Event title."
+    },
+    "dateTime": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Start date and time in ISO format."
+    },
+    "venue": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "address": { "type": "string" },
+        "isVirtual": { "type": "boolean" }
+      },
+      "required": ["name", "isVirtual"]
+    },
+    "crossPromoted": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of partner MOSAIC groups cross-posting this event."
+    }
+  },
+  "required": ["eventId", "primaryGroup", "title", "dateTime", "venue"]
+}
