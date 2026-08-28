@@ -1,0 +1,20 @@
+{
+  "id": "jane-doe",
+  "name": "Jane Doe",
+  "pronouns": "she/her",
+  "email": "jane@example.com",
+  "title": "Senior AI Engineer",
+  "organization": "Open Source Labs",
+  "bio": "Building scalable AI systems and community tools.",
+  "avatarUrl": "https://example.com/avatars/jane.jpg",
+  "affiliatedGroup": "Agentic AI Foundation (AAIF) Community Madison",
+  "topics": [
+    "Agentic AI",
+    "Python",
+    "LLMs"
+  ],
+  "socials": {
+    "github": "https://github.com/example",
+    "linkedin": "https://linkedin.com/in/example"
+  }
+}
