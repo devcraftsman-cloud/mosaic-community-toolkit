@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/devcraftsman-cloud/mosaic-community-toolkit/main/schemas/speaker.schema.json",
+  "title": "MosaicSpeakerProfile",
+  "description": "JSON schema for validating speaker profiles across MOSAIC community events.",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "email",
+    "bio",
+    "affiliatedGroup",
+    "topics"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique URL-friendly slug identifier for the speaker (e.g., 'jane-doe')."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 2,
+      "description": "Full name of the speaker."
+    },
+    "pronouns": {
+      "type": "string",
+      "example": "she/her"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "Direct contact email address."
+    },
+    "title": {
+      "type": "string",
+      "description": "Professional title or role (e.g., 'Senior AI Engineer')."
+    },
+    "organization": {
+      "type": "string",
+      "description": "Company, university, or independent status."
+    },
+    "bio": {
+      "type": "string",
+      "maxLength": 1000,
+      "description": "Short bio for public event announcements and web pages."
+    },
+    "avatarUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Link to headshot/profile image."
+    },
+    "affiliatedGroup": {
+      "type": "string",
+      "enum": [
+        "Cloud Native Madison (CNCF)",
+        "Agentic AI Foundation (AAIF) Community Madison",
+        "Google DevFest",
+        "Madison Women in Tech",
+        "Other"
+      ],
+      "description": "Primary MOSAIC partner community the speaker is affiliated with."
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Primary focus areas (e.g., ['Kubernetes', 'RLHF', 'WebDev'])."
+    },
+    "socials": {
+      "type": "object",
+      "properties": {
+        "github": { "type": "string", "format": "uri" },
+        "linkedin": { "type": "string", "format": "uri" },
+        "twitter": { "type": "string", "format": "uri" },
+        "website": { "type": "string", "format": "uri" }
+      },
+      "additionalProperties": false
+    },
+    "pastTalks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "date"],
+        "properties": {
+          "title": { "type": "string" },
+          "event": { "type": "string" },
+          "date": { "type": "string", "format": "date" },
+          "slidesUrl": { "type": "string", "format": "uri" }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
