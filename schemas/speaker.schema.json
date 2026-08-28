@@ -25,7 +25,7 @@
     },
     "pronouns": {
       "type": "string",
-      "example": "she/her"
+      "examples": ["she/her"]
     },
     "email": {
       "type": "string",
