@@ -1,0 +1,8 @@
+{
+  "id": "example-speaker",
+  "name": "Example Speaker",
+  "email": "not-an-email",
+  "bio": "EXAMPLE ONLY: rejected email fixture.",
+  "affiliatedGroup": "Other",
+  "topics": ["Schema validation"]
+}

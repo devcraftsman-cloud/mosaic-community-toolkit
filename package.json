@@ -9,6 +9,8 @@
   },
   "scripts": {
     "validate:data": "tsx packages/schema/validate.ts",
+    "validate:schemas": "tsx packages/schema/validate-contracts.ts",
+    "test:schemas": "tsx --test tests/schema-contracts.test.ts",
     "discover": "tsx worker/discover.ts"
   },
   "keywords": [],

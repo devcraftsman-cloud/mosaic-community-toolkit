@@ -1,0 +1,12 @@
+{
+  "eventId": "example-cnmid-schema-check",
+  "primaryGroup": "CNMid",
+  "title": "EXAMPLE ONLY: CNMid schema fixture",
+  "dateTime": "2027-01-15T18:00:00-06:00",
+  "venue": {
+    "name": "Example venue",
+    "address": "Example address, Madison, WI",
+    "isVirtual": false
+  },
+  "crossPromoted": ["CNMad"]
+}
