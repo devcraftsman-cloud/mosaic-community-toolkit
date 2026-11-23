@@ -1,0 +1,42 @@
+{
+  "id": "cnmid-gemini-enterprise-and-gemini-notebook-le-059cd3",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid"
+  ],
+  "category": "learning-library",
+  "title": "Gemini Enterprise and Gemini Notebook Learning Path",
+  "summary": "Explore Google Cloud's learning path for Gemini Enterprise and Gemini Notebook to build deep skills in generative AI and cloud enterprise tools.",
+  "canonicalUrl": "https://www.skills.google/paths/3666",
+  "alternateUrls": [],
+  "sourceId": "google-skills-paths",
+  "sourceType": "firecrawl-discovered",
+  "attribution": {
+    "publisherName": "Google Cloud"
+  },
+  "participation": {
+    "mode": "async-contribution"
+  },
+  "dates": {
+    "discoveredAt": "2026-11-23T15:19:41.106Z",
+    "lastVerifiedAt": "2026-11-23T15:19:41.106Z"
+  },
+  "status": "approved",
+  "isSponsored": false,
+  "tags": [
+    "google-cloud",
+    "gemini",
+    "ai-agents",
+    "skill-badge"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-23T15:19:41.106Z",
+      "actor": "firecrawl-gemini-worker",
+      "action": "discovered-pending-review",
+      "note": "Scraped from https://www.skills.google/paths"
+    }
+  ],
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-23T15:21:04.836Z"
+}

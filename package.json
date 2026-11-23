@@ -1,0 +1,27 @@
+{
+  "name": "mosaic-community-toolkit",
+  "version": "1.0.0",
+  "description": "> Open-source infrastructure, interactive AI fine-tuning workshops, and developer tooling for the MOSAIC community.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "validate:data": "tsx packages/schema/validate.ts",
+    "discover": "tsx worker/discover.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1"
+  }
+}

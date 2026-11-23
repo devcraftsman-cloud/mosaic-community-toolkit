@@ -1,0 +1,58 @@
+{
+  "id": "cnmid-evt-2026-12-11-garver-social",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid",
+    "cloud-native-madison",
+    "aaif-madison",
+    "mosaic"
+  ],
+  "category": "community-board",
+  "title": "CNMid & Midwest Tech Multi-Community Holiday Social",
+  "summary": "End-of-year community gathering at Garver Lounge bringing together Cloud Native Midwest, Madison Women in Tech, GDG Cloud Madison, AAIF, and MOSAIC.",
+  "canonicalUrl": "https://garverevents.com/garver-lounge",
+  "alternateUrls": [],
+  "location": {
+    "mode": "in-person",
+    "city": "Madison",
+    "state": "WI",
+    "venueName": "Garver Lounge",
+    "address": "3241 Garver Green, Madison, WI 53704"
+  },
+  "sourceId": "organizer-manual",
+  "sourceType": "organizer-published",
+  "attribution": {
+    "publisherName": "Cloud Native Midwest (CNMid)",
+    "authorName": "Britany Taylor"
+  },
+  "participation": {
+    "mode": "rsvp-requested",
+    "actionUrl": "https://cnmid.dev",
+    "notes": "Open to all Midwest builders, students, and community members."
+  },
+  "dates": {
+    "startsAt": "2026-12-11T17:30:00-06:00",
+    "discoveredAt": "2026-11-18T15:35:00-06:00",
+    "lastVerifiedAt": "2026-11-18T15:35:00-06:00",
+    "expiresAt": "2026-12-12T00:00:00-06:00"
+  },
+  "status": "archived",
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-18T15:35:00-06:00",
+  "isSponsored": false,
+  "tags": [
+    "holiday-social",
+    "madison",
+    "cloud-native",
+    "agentic-ai",
+    "networking"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-18T15:35:00-06:00",
+      "actor": "britany",
+      "action": "created-and-verified",
+      "note": "Initial CNMid seed item."
+    }
+  ]
+}

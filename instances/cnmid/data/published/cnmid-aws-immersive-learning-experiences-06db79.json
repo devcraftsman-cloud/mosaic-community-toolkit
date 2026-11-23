@@ -1,0 +1,42 @@
+{
+  "id": "cnmid-aws-immersive-learning-experiences-06db79",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid"
+  ],
+  "category": "learning-library",
+  "title": "AWS Immersive Learning Experiences",
+  "summary": "Practice in real-world environments with AI-powered scenarios and hands-on labs designed to mirror day-to-day AWS cloud work and build role-specific confidence.",
+  "canonicalUrl": "https://aws.amazon.com/training/digital/immersive-learning/",
+  "alternateUrls": [],
+  "sourceId": "aws-free-digital-training",
+  "sourceType": "firecrawl-discovered",
+  "attribution": {
+    "publisherName": "Amazon Web Services"
+  },
+  "participation": {
+    "mode": "async-contribution"
+  },
+  "dates": {
+    "discoveredAt": "2026-11-23T15:19:59.222Z",
+    "lastVerifiedAt": "2026-11-23T15:19:59.222Z"
+  },
+  "status": "approved",
+  "isSponsored": false,
+  "tags": [
+    "aws",
+    "cloud",
+    "free-course",
+    "hands-on"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-23T15:19:59.222Z",
+      "actor": "firecrawl-gemini-worker",
+      "action": "discovered-pending-review",
+      "note": "Scraped from https://aws.amazon.com/training/digital/"
+    }
+  ],
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-23T15:21:04.835Z"
+}

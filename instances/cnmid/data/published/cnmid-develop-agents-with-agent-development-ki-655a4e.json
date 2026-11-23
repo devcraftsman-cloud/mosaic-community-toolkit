@@ -1,0 +1,42 @@
+{
+  "id": "cnmid-develop-agents-with-agent-development-ki-655a4e",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid"
+  ],
+  "category": "learning-library",
+  "title": "Develop Agents with Agent Development Kit (ADK)",
+  "summary": "Learn how to build and deploy intelligent agents using Google Cloud's Agent Development Kit (ADK) in this practical online learning path.",
+  "canonicalUrl": "https://www.skills.google/paths/3545",
+  "alternateUrls": [],
+  "sourceId": "google-skills-paths",
+  "sourceType": "firecrawl-discovered",
+  "attribution": {
+    "publisherName": "Google Cloud"
+  },
+  "participation": {
+    "mode": "async-contribution"
+  },
+  "dates": {
+    "discoveredAt": "2026-11-23T15:19:41.106Z",
+    "lastVerifiedAt": "2026-11-23T15:19:41.106Z"
+  },
+  "status": "approved",
+  "isSponsored": false,
+  "tags": [
+    "google-cloud",
+    "gemini",
+    "ai-agents",
+    "skill-badge"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-23T15:19:41.106Z",
+      "actor": "firecrawl-gemini-worker",
+      "action": "discovered-pending-review",
+      "note": "Scraped from https://www.skills.google/paths"
+    }
+  ],
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-23T15:21:04.835Z"
+}

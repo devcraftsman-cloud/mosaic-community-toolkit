@@ -1,0 +1,43 @@
+{
+  "id": "cnmid-agentic-ai-explained-ece302",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid"
+  ],
+  "category": "learning-library",
+  "title": "Agentic AI Explained",
+  "summary": "Learn the fundamentals of agentic AI systems and autonomous workflows in this free 1-hour self-paced course from the NVIDIA Deep Learning Institute.",
+  "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-39+V1",
+  "alternateUrls": [],
+  "sourceId": "nvidia-dli-free",
+  "sourceType": "firecrawl-discovered",
+  "attribution": {
+    "publisherName": "NVIDIA"
+  },
+  "participation": {
+    "mode": "async-contribution"
+  },
+  "dates": {
+    "discoveredAt": "2026-11-23T15:19:51.403Z",
+    "lastVerifiedAt": "2026-11-23T15:19:51.403Z"
+  },
+  "status": "approved",
+  "isSponsored": false,
+  "tags": [
+    "nvidia",
+    "gpu",
+    "cuda",
+    "free-course",
+    "agentic-ai"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-23T15:19:51.403Z",
+      "actor": "firecrawl-gemini-worker",
+      "action": "discovered-pending-review",
+      "note": "Scraped from https://www.nvidia.com/en-us/training/self-paced-courses/"
+    }
+  ],
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-23T15:21:04.823Z"
+}

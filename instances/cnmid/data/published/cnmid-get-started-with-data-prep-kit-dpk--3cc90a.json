@@ -1,0 +1,44 @@
+{
+  "id": "cnmid-get-started-with-data-prep-kit-dpk--3cc90a",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid"
+  ],
+  "category": "learning-library",
+  "title": "Get Started with Data Prep Kit (DPK)",
+  "summary": "In this learning path, learn how to use Data Prep Kit (DPK) to prepare data for large language model (LLM) applications.",
+  "canonicalUrl": "https://developer.ibm.com/learningpaths/get-started-data-prep-kit/",
+  "alternateUrls": [],
+  "sourceId": "ibm-developer-paths",
+  "sourceType": "firecrawl-discovered",
+  "attribution": {
+    "publisherName": "IBM Developer"
+  },
+  "participation": {
+    "mode": "async-contribution"
+  },
+  "dates": {
+    "discoveredAt": "2026-11-23T15:20:09.992Z",
+    "lastVerifiedAt": "2026-11-23T15:20:09.992Z"
+  },
+  "status": "approved",
+  "isSponsored": false,
+  "tags": [
+    "ibm",
+    "ai",
+    "open-source",
+    "free-course",
+    "llm",
+    "data-prep-kit"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-23T15:20:09.992Z",
+      "actor": "firecrawl-gemini-worker",
+      "action": "discovered-pending-review",
+      "note": "Scraped from https://developer.ibm.com/learningpaths/"
+    }
+  ],
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-23T15:21:04.836Z"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "cnmid-gemini-agent-ready-gear-program-e190a9",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid"
+  ],
+  "category": "learning-library",
+  "title": "Gemini Agent Ready (GEAR) Program",
+  "summary": "Join the Gemini Agent Ready (GEAR) program to learn how to deploy enterprise-grade AI agents at scale with Google Skills credits.",
+  "canonicalUrl": "https://www.skills.google/payments/new?show_gear_form=true",
+  "alternateUrls": [],
+  "sourceId": "google-skills-paths",
+  "sourceType": "firecrawl-discovered",
+  "attribution": {
+    "publisherName": "Google Cloud"
+  },
+  "participation": {
+    "mode": "async-contribution"
+  },
+  "dates": {
+    "discoveredAt": "2026-11-23T15:19:41.106Z",
+    "lastVerifiedAt": "2026-11-23T15:19:41.106Z"
+  },
+  "status": "approved",
+  "isSponsored": false,
+  "tags": [
+    "google-cloud",
+    "gemini",
+    "ai-agents",
+    "skill-badge"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-23T15:19:41.106Z",
+      "actor": "firecrawl-gemini-worker",
+      "action": "discovered-pending-review",
+      "note": "Scraped from https://www.skills.google/paths"
+    }
+  ],
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-23T15:21:04.835Z"
+}

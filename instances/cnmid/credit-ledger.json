@@ -1,0 +1,62 @@
+{
+  "totalAllocated": 1400,
+  "allocations": {
+    "sourceMapping": 100,
+    "initialCollection": 250,
+    "tuning": 100,
+    "scheduledRefreshReserve": 950
+  },
+  "guardrails": {
+    "emergencyStop": false,
+    "maxCreditsPerRun": 10,
+    "weeklySpendingCeiling": 35,
+    "disallowPdfParsing": true
+  },
+  "usage": {
+    "creditsConsumedTotal": 28,
+    "creditsConsumedCurrentWeek": 28,
+    "weekStartIso": "2026-11-16T00:00:00Z",
+    "runs": [
+      {
+        "timestamp": "2026-11-19T23:36:47.923Z",
+        "creditsSpent": 5,
+        "targetsChecked": 5
+      },
+      {
+        "timestamp": "2026-11-19T23:37:31.086Z",
+        "creditsSpent": 1,
+        "targetsChecked": 1
+      },
+      {
+        "timestamp": "2026-11-19T23:38:17.202Z",
+        "creditsSpent": 1,
+        "targetsChecked": 1
+      },
+      {
+        "timestamp": "2026-11-19T23:39:10.425Z",
+        "creditsSpent": 1,
+        "targetsChecked": 1
+      },
+      {
+        "timestamp": "2026-11-19T23:44:19.306Z",
+        "creditsSpent": 5,
+        "targetsChecked": 5
+      },
+      {
+        "timestamp": "2026-11-23T14:38:00.676Z",
+        "creditsSpent": 5,
+        "targetsChecked": 5
+      },
+      {
+        "timestamp": "2026-11-23T15:15:20.117Z",
+        "creditsSpent": 5,
+        "targetsChecked": 5
+      },
+      {
+        "timestamp": "2026-11-23T15:20:09.997Z",
+        "creditsSpent": 5,
+        "targetsChecked": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "cnmid-quarkus-basics-389c54",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid"
+  ],
+  "category": "learning-library",
+  "title": "Quarkus Basics",
+  "summary": "Designed for Java developers new to Quarkus to build modern applications from the ground up, including REST APIs, data persistence, testing, containerization, and deployment.",
+  "canonicalUrl": "https://developer.ibm.com/learningpaths/quarkus-basics/",
+  "alternateUrls": [],
+  "sourceId": "ibm-developer-paths",
+  "sourceType": "firecrawl-discovered",
+  "attribution": {
+    "publisherName": "IBM Developer"
+  },
+  "participation": {
+    "mode": "async-contribution"
+  },
+  "dates": {
+    "discoveredAt": "2026-11-23T15:20:09.992Z",
+    "lastVerifiedAt": "2026-11-23T15:20:09.992Z"
+  },
+  "status": "approved",
+  "isSponsored": false,
+  "tags": [
+    "ibm",
+    "ai",
+    "open-source",
+    "free-course",
+    "quarkus",
+    "java",
+    "containers"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-23T15:20:09.992Z",
+      "actor": "firecrawl-gemini-worker",
+      "action": "discovered-pending-review",
+      "note": "Scraped from https://developer.ibm.com/learningpaths/"
+    }
+  ],
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-23T15:21:04.836Z"
+}

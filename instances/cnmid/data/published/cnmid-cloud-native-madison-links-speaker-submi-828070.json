@@ -1,0 +1,47 @@
+{
+  "id": "cnmid-cloud-native-madison-links-speaker-submi-828070",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid"
+  ],
+  "category": "community-board",
+  "title": "Cloud Native Madison Links & Speaker Submissions",
+  "summary": "Access community links, social channels, and speaker submission forms for Cloud Native Madison presentations, workshops, and demos.",
+  "canonicalUrl": "https://linktr.ee/cloud.native.madison",
+  "alternateUrls": [],
+  "location": {
+    "mode": "in-person",
+    "city": "Madison",
+    "state": "WI"
+  },
+  "sourceId": "madison-cncf-chapter",
+  "sourceType": "firecrawl-discovered",
+  "attribution": {
+    "publisherName": "Cloud Native Madison"
+  },
+  "participation": {
+    "mode": "rsvp-requested"
+  },
+  "dates": {
+    "discoveredAt": "2026-11-19T23:42:44.632Z",
+    "lastVerifiedAt": "2026-11-19T23:42:44.632Z"
+  },
+  "status": "approved",
+  "isSponsored": false,
+  "tags": [
+    "madison-tech-meets",
+    "cloud-native",
+    "call-for-speakers",
+    "community"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-19T23:42:44.632Z",
+      "actor": "firecrawl-gemini-worker",
+      "action": "discovered-pending-review",
+      "note": "Scraped from https://community.cncf.io/cloud-native-madison/"
+    }
+  ],
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-23T15:16:41.400Z"
+}

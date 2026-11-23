@@ -1,0 +1,42 @@
+{
+  "id": "cnmid-aws-skill-builder-free-self-paced-digita-859d61",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid"
+  ],
+  "category": "learning-library",
+  "title": "AWS Skill Builder Free Self-Paced Digital Courses",
+  "summary": "Access over 900 free self-paced digital courses covering AWS services and skill levels, developed by AWS experts to build foundational to advanced cloud skills.",
+  "canonicalUrl": "https://skillbuilder.aws/search?page=1&accessTier=free",
+  "alternateUrls": [],
+  "sourceId": "aws-free-digital-training",
+  "sourceType": "firecrawl-discovered",
+  "attribution": {
+    "publisherName": "Amazon Web Services"
+  },
+  "participation": {
+    "mode": "async-contribution"
+  },
+  "dates": {
+    "discoveredAt": "2026-11-23T15:19:59.222Z",
+    "lastVerifiedAt": "2026-11-23T15:19:59.222Z"
+  },
+  "status": "approved",
+  "isSponsored": false,
+  "tags": [
+    "aws",
+    "cloud",
+    "free-course",
+    "self-paced"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-23T15:19:59.222Z",
+      "actor": "firecrawl-gemini-worker",
+      "action": "discovered-pending-review",
+      "note": "Scraped from https://aws.amazon.com/training/digital/"
+    }
+  ],
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-23T15:21:04.835Z"
+}

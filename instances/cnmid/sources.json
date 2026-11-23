@@ -1,0 +1,159 @@
+{
+  "instanceId": "cnmid",
+  "discoveryTags": [
+    "free-tech-courses",
+    "free-downloadable-books",
+    "chicago-classes-and-meets",
+    "universities-and-schools",
+    "madison-tech-meets"
+  ],
+  "targets": [
+    {
+      "sourceId": "cncf-free-courses",
+      "url": "https://training.linuxfoundation.org/resources/?_sft_content_type=free-course",
+      "category": "learning-library",
+      "tags": [
+        "free-tech-courses",
+        "cloud-native"
+      ],
+      "maxCredits": 1,
+      "enabled": true,
+      "lastScrapedAt": "2026-11-23T15:15:17.404Z"
+    },
+    {
+      "sourceId": "free-programming-books",
+      "url": "https://ebookfoundation.github.io/free-programming-books/",
+      "category": "learning-library",
+      "tags": [
+        "free-downloadable-books",
+        "open-source"
+      ],
+      "maxCredits": 1,
+      "enabled": true,
+      "lastScrapedAt": "2026-11-23T15:15:18.251Z"
+    },
+    {
+      "sourceId": "madison-cncf-chapter",
+      "url": "https://community.cncf.io/cloud-native-madison/",
+      "category": "community-board",
+      "tags": [
+        "madison-tech-meets",
+        "cloud-native"
+      ],
+      "maxCredits": 1,
+      "enabled": true,
+      "lastScrapedAt": "2026-11-23T15:15:18.847Z"
+    },
+    {
+      "sourceId": "chicago-cncf-chapter",
+      "url": "https://community.cncf.io/cloud-native-chicago/",
+      "category": "community-board",
+      "tags": [
+        "chicago-classes-and-meets",
+        "cloud-native"
+      ],
+      "maxCredits": 1,
+      "enabled": true,
+      "lastScrapedAt": "2026-11-23T15:15:19.412Z"
+    },
+    {
+      "sourceId": "uw-madison-cs-events",
+      "url": "https://www.cs.wisc.edu/events/",
+      "category": "learning-library",
+      "tags": [
+        "universities-and-schools",
+        "madison-tech-meets"
+      ],
+      "maxCredits": 1,
+      "enabled": true,
+      "lastScrapedAt": "2026-11-23T15:15:19.805Z"
+    },
+    {
+      "sourceId": "huggingface-learn",
+      "url": "https://huggingface.co/learn",
+      "category": "learning-library",
+      "tags": [
+        "hugging-face",
+        "ai-agents",
+        "free-course",
+        "open-source"
+      ],
+      "enabled": true,
+      "lastScrapedAt": "2026-11-23T15:18:38.954Z"
+    },
+    {
+      "sourceId": "google-skills-paths",
+      "url": "https://www.skills.google/paths",
+      "category": "learning-library",
+      "tags": [
+        "google-cloud",
+        "gemini",
+        "ai-agents",
+        "skill-badge"
+      ],
+      "enabled": true,
+      "lastScrapedAt": "2026-11-23T15:19:31.818Z"
+    },
+    {
+      "sourceId": "nvidia-dli-free",
+      "url": "https://www.nvidia.com/en-us/training/self-paced-courses/",
+      "category": "learning-library",
+      "tags": [
+        "nvidia",
+        "gpu",
+        "cuda",
+        "free-course"
+      ],
+      "enabled": true,
+      "lastScrapedAt": "2026-11-23T15:19:41.425Z"
+    },
+    {
+      "sourceId": "aws-free-digital-training",
+      "url": "https://aws.amazon.com/training/digital/",
+      "category": "learning-library",
+      "tags": [
+        "aws",
+        "cloud",
+        "free-course"
+      ],
+      "enabled": true,
+      "lastScrapedAt": "2026-11-23T15:19:51.848Z"
+    },
+    {
+      "sourceId": "ibm-developer-paths",
+      "url": "https://developer.ibm.com/learningpaths/",
+      "category": "learning-library",
+      "tags": [
+        "ibm",
+        "ai",
+        "open-source",
+        "free-course"
+      ],
+      "enabled": true,
+      "lastScrapedAt": "2026-11-23T15:20:01.906Z"
+    },
+    {
+      "sourceId": "github-skills",
+      "url": "https://skills.github.com/",
+      "category": "builders-corner",
+      "tags": [
+        "git",
+        "github",
+        "hands-on",
+        "free-course"
+      ],
+      "enabled": true
+    },
+    {
+      "sourceId": "amd-developer-hub",
+      "url": "https://www.amd.com/en/developer/resources/technical-articles.html",
+      "category": "builders-corner",
+      "tags": [
+        "amd",
+        "rocm",
+        "ai-hardware"
+      ],
+      "enabled": true
+    }
+  ]
+}

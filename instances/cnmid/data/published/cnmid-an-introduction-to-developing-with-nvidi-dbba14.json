@@ -1,0 +1,43 @@
+{
+  "id": "cnmid-an-introduction-to-developing-with-nvidi-dbba14",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid"
+  ],
+  "category": "learning-library",
+  "title": "An Introduction to Developing With NVIDIA Omniverse",
+  "summary": "Gain hands-on experience building 3D workflows and extensions in this free 2-hour self-paced course covering NVIDIA Omniverse fundamentals.",
+  "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-11+V1",
+  "alternateUrls": [],
+  "sourceId": "nvidia-dli-free",
+  "sourceType": "firecrawl-discovered",
+  "attribution": {
+    "publisherName": "NVIDIA"
+  },
+  "participation": {
+    "mode": "async-contribution"
+  },
+  "dates": {
+    "discoveredAt": "2026-11-23T15:19:51.403Z",
+    "lastVerifiedAt": "2026-11-23T15:19:51.403Z"
+  },
+  "status": "approved",
+  "isSponsored": false,
+  "tags": [
+    "nvidia",
+    "gpu",
+    "cuda",
+    "free-course",
+    "omniverse"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-23T15:19:51.403Z",
+      "actor": "firecrawl-gemini-worker",
+      "action": "discovered-pending-review",
+      "note": "Scraped from https://www.nvidia.com/en-us/training/self-paced-courses/"
+    }
+  ],
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-23T15:21:04.834Z"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "cnmid-securing-agents-with-nemoclaw-and-opensh-0527ef",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid"
+  ],
+  "category": "learning-library",
+  "title": "Securing Agents with NemoClaw and OpenShell",
+  "summary": "Explore methods to secure autonomous AI agents using NemoClaw and OpenShell in this free 4-hour self-paced training course from NVIDIA.",
+  "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-43+V1",
+  "alternateUrls": [],
+  "sourceId": "nvidia-dli-free",
+  "sourceType": "firecrawl-discovered",
+  "attribution": {
+    "publisherName": "NVIDIA"
+  },
+  "participation": {
+    "mode": "async-contribution"
+  },
+  "dates": {
+    "discoveredAt": "2026-11-23T15:19:51.403Z",
+    "lastVerifiedAt": "2026-11-23T15:19:51.403Z"
+  },
+  "status": "approved",
+  "isSponsored": false,
+  "tags": [
+    "nvidia",
+    "gpu",
+    "cuda",
+    "free-course",
+    "agentic-ai",
+    "security"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-23T15:19:51.403Z",
+      "actor": "firecrawl-gemini-worker",
+      "action": "discovered-pending-review",
+      "note": "Scraped from https://www.nvidia.com/en-us/training/self-paced-courses/"
+    }
+  ],
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-23T15:21:04.837Z"
+}

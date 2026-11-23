@@ -1,0 +1,57 @@
+{
+  "id": "cnmid-evt-2027-01-16-ai-code-jam",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid",
+    "cloud-native-madison",
+    "aaif-madison",
+    "mosaic"
+  ],
+  "category": "community-board",
+  "title": "AI Code Jam — January 2027",
+  "summary": "Hands-on regional AI Code Jam in Middleton, WI. RSVP required on Guild Host to unlock venue details and check-in.",
+  "canonicalUrl": "https://guild.host/events/ai-code-jam-january-g3pwgh",
+  "alternateUrls": [],
+  "location": {
+    "mode": "in-person",
+    "city": "Middleton",
+    "state": "WI",
+    "venueName": "RSVP Required for Venue Address"
+  },
+  "sourceId": "organizer-manual",
+  "sourceType": "organizer-published",
+  "attribution": {
+    "publisherName": "THAT AI Guild & CNMid",
+    "authorName": "Britany Taylor"
+  },
+  "participation": {
+    "mode": "rsvp-requested",
+    "actionUrl": "https://guild.host/events/ai-code-jam-january-g3pwgh",
+    "notes": "RSVP-only event; exact address is revealed after Guild Host confirmation."
+  },
+  "dates": {
+    "startsAt": "2027-01-16T10:00:00-06:00",
+    "endsAt": "2027-01-16T16:00:00-06:00",
+    "discoveredAt": "2026-11-18T16:05:00-06:00",
+    "lastVerifiedAt": "2026-11-18T16:05:00-06:00",
+    "expiresAt": "2027-01-17T00:00:00-06:00"
+  },
+  "status": "approved",
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-18T16:05:00-06:00",
+  "isSponsored": false,
+  "tags": [
+    "ai-code-jam",
+    "hackathon",
+    "rsvp-only",
+    "middleton",
+    "madison"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-18T16:05:00-06:00",
+      "actor": "britany",
+      "action": "verified-rsvp-only-no-address"
+    }
+  ]
+}

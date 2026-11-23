@@ -1,0 +1,30 @@
+[
+  {
+    "communityId": "cnmid",
+    "name": "Cloud Native Midwest (CNMid)",
+    "role": "regional-umbrella",
+    "website": "https://cnmid.dev",
+    "active": true
+  },
+  {
+    "communityId": "cloud-native-madison",
+    "name": "Cloud Native Madison",
+    "role": "founding-chapter",
+    "website": "https://community.cncf.io/cloud-native-madison/",
+    "active": true
+  },
+  {
+    "communityId": "aaif-madison",
+    "name": "Agentic AI Foundation Community Madison",
+    "role": "participating-community",
+    "website": "https://github.com/devcraftsman-cloud/mosaic-community-toolkit",
+    "active": true
+  },
+  {
+    "communityId": "mosaic",
+    "name": "MOSAIC",
+    "role": "infrastructure-steward",
+    "website": "https://github.com/devcraftsman-cloud/mosaic-community-toolkit",
+    "active": true
+  }
+]

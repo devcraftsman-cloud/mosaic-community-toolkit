@@ -1,0 +1,47 @@
+{
+  "id": "cnmid-cloud-native-madison-slack-community-118d37",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid"
+  ],
+  "category": "community-board",
+  "title": "Cloud Native Madison Slack Community",
+  "summary": "Join the Cloud Native Madison Slack workspace to ask questions, trade stories, solve problems, and connect with local cloud-native practitioners.",
+  "canonicalUrl": "https://join.slack.com/t/cloud-native-madison/shared_invite/zt-2vgcri1g3-IhYaCl8gaLyLc_~d6rbZBQ",
+  "alternateUrls": [],
+  "location": {
+    "mode": "in-person",
+    "city": "Madison",
+    "state": "WI"
+  },
+  "sourceId": "madison-cncf-chapter",
+  "sourceType": "firecrawl-discovered",
+  "attribution": {
+    "publisherName": "Cloud Native Madison"
+  },
+  "participation": {
+    "mode": "rsvp-requested"
+  },
+  "dates": {
+    "discoveredAt": "2026-11-19T23:42:44.632Z",
+    "lastVerifiedAt": "2026-11-19T23:42:44.632Z"
+  },
+  "status": "approved",
+  "isSponsored": false,
+  "tags": [
+    "madison-tech-meets",
+    "cloud-native",
+    "slack",
+    "community"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-19T23:42:44.632Z",
+      "actor": "firecrawl-gemini-worker",
+      "action": "discovered-pending-review",
+      "note": "Scraped from https://community.cncf.io/cloud-native-madison/"
+    }
+  ],
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-23T15:16:41.400Z"
+}

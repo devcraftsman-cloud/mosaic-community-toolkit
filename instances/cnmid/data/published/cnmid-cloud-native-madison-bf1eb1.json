@@ -1,0 +1,47 @@
+{
+  "id": "cnmid-cloud-native-madison-bf1eb1",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid"
+  ],
+  "category": "community-board",
+  "title": "Cloud Native Madison",
+  "summary": "A community of tech folks in the Madison area building, running, and discussing cloud-native technologies, containers, and Kubernetes.",
+  "canonicalUrl": "https://ocgroups.dev/cncf/group/hmrusuc",
+  "alternateUrls": [],
+  "location": {
+    "mode": "in-person",
+    "city": "Madison",
+    "state": "WI"
+  },
+  "sourceId": "madison-cncf-chapter",
+  "sourceType": "firecrawl-discovered",
+  "attribution": {
+    "publisherName": "Cloud Native Madison"
+  },
+  "participation": {
+    "mode": "rsvp-requested"
+  },
+  "dates": {
+    "discoveredAt": "2026-11-19T23:42:44.632Z",
+    "lastVerifiedAt": "2026-11-19T23:42:44.632Z"
+  },
+  "status": "approved",
+  "isSponsored": false,
+  "tags": [
+    "madison-tech-meets",
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-19T23:42:44.632Z",
+      "actor": "firecrawl-gemini-worker",
+      "action": "discovered-pending-review",
+      "note": "Scraped from https://community.cncf.io/cloud-native-madison/"
+    }
+  ],
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-23T15:16:41.389Z"
+}

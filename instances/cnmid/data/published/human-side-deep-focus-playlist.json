@@ -1,0 +1,44 @@
+{
+  "id": "human-side-deep-focus-soundscapes",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid",
+    "mosaic"
+  ],
+  "category": "human-side",
+  "title": "Deep Architecture & Late-Night Terminal Focus Mix",
+  "summary": "Community-curated ambient electronic, chillhop lo-fi, and dark academia piano tracks for system design sprints and coding sessions.",
+  "canonicalUrl": "https://github.com/devcraftsman-cloud/mosaic-community-toolkit",
+  "alternateUrls": [],
+  "sourceId": "organizer-manual",
+  "sourceType": "community-submitted",
+  "attribution": {
+    "publisherName": "CNMid Human Side",
+    "authorName": "The Human Architect"
+  },
+  "participation": {
+    "mode": "async-contribution",
+    "notes": "Submit your favorite coding tracks via GitHub Issues."
+  },
+  "dates": {
+    "discoveredAt": "2026-11-18T15:40:00-06:00",
+    "lastVerifiedAt": "2026-11-18T15:40:00-06:00"
+  },
+  "status": "approved",
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-18T15:40:00-06:00",
+  "isSponsored": false,
+  "tags": [
+    "playlist",
+    "focus-music",
+    "culture",
+    "ambient"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-18T15:40:00-06:00",
+      "actor": "britany",
+      "action": "created-and-verified"
+    }
+  ]
+}

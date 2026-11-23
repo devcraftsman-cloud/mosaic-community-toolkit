@@ -1,0 +1,22 @@
+
+:root{--bg:#0b0d12;--s:#131722;--b:#252c3d;--t:#e6eaf2;--m:#939eb5;--a:#a78bfa;--g:#34d399;--c:#38bdf8}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:var(--bg);color:var(--t);line-height:1.5}
+.shell{max-width:1200px;margin:0 auto;padding:2rem 1.25rem}
+.hdr{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:1rem;border-bottom:1px solid var(--b);padding-bottom:1.25rem;margin-bottom:1.25rem}
+.eye{font-family:monospace;font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--a);margin:0 0 .25rem}
+h1{margin:0;font-size:1.9rem}.sub{color:var(--m);margin:.25rem 0 0;font-size:.92rem}
+.bar{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem;align-items:center}
+.btn{background:var(--s);border:1px solid var(--b);color:var(--t);padding:.5rem .9rem;border-radius:99px;cursor:pointer;font-weight:600;font-size:.85rem;text-decoration:none}
+.btn.on{background:var(--a);color:#0b0d12;border-color:var(--a)}
+.inp{flex:1;min-width:220px;background:var(--s);border:1px solid var(--b);color:var(--t);padding:.55rem .9rem;border-radius:10px}
+.pill{background:0;border:1px solid var(--b);color:var(--m);padding:.3rem .7rem;border-radius:8px;cursor:pointer;font-size:.78rem}
+.pill.on{border-color:var(--a);color:var(--a);font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem;margin-top:1.25rem}
+.card{background:var(--s);border:1px solid var(--b);border-radius:12px;padding:1.15rem;display:flex;flex-direction:column;justify-content:space-between}
+.top{display:flex;justify-content:space-between;font-size:.72rem;font-family:monospace;margin-bottom:.6rem}
+.cat{color:var(--c);text-transform:uppercase}.open{color:var(--g);border:1px solid var(--g);padding:.1rem .45rem;border-radius:99px}
+.card h3{margin:0 0 .4rem;font-size:1.05rem}.card p{margin:0 0 .85rem;color:var(--m);font-size:.88rem}
+.meta,.tags{font-size:.78rem;color:var(--m);display:flex;flex-wrap:wrap;gap:.35rem;margin-bottom:.75rem}
+.tag{background:rgba(255,255,255,.05);padding:.1rem .45rem;border-radius:6px;font-family:monospace}
+.ft{display:flex;justify-content:space-between;border-top:1px solid var(--b);padding-top:.75rem;font-size:.8rem}
+.ft a{color:var(--a);text-decoration:none;font-weight:600}

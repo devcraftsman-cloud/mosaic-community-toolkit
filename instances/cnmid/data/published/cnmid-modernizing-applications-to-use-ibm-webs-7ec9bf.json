@@ -1,0 +1,45 @@
+{
+  "id": "cnmid-modernizing-applications-to-use-ibm-webs-7ec9bf",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid"
+  ],
+  "category": "learning-library",
+  "title": "Modernizing Applications to Use IBM WebSphere Liberty",
+  "summary": "Learn a structured, repeatable approach to modernizing enterprise Java applications using IBM's application modernization tools to run on Liberty in cloud containers.",
+  "canonicalUrl": "https://developer.ibm.com/learningpaths/app-mod-liberty/",
+  "alternateUrls": [],
+  "sourceId": "ibm-developer-paths",
+  "sourceType": "firecrawl-discovered",
+  "attribution": {
+    "publisherName": "IBM Developer"
+  },
+  "participation": {
+    "mode": "async-contribution"
+  },
+  "dates": {
+    "discoveredAt": "2026-11-23T15:20:09.992Z",
+    "lastVerifiedAt": "2026-11-23T15:20:09.992Z"
+  },
+  "status": "approved",
+  "isSponsored": false,
+  "tags": [
+    "ibm",
+    "ai",
+    "open-source",
+    "free-course",
+    "websphere",
+    "java",
+    "app-modernization"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-23T15:20:09.992Z",
+      "actor": "firecrawl-gemini-worker",
+      "action": "discovered-pending-review",
+      "note": "Scraped from https://developer.ibm.com/learningpaths/"
+    }
+  ],
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-23T15:21:04.836Z"
+}

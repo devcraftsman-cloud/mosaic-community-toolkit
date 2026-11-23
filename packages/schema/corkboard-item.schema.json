@@ -1,0 +1,143 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cnmid.dev/schemas/corkboard-item.schema.json",
+  "title": "CorkboardItem",
+  "type": "object",
+  "required": [
+    "id",
+    "instanceId",
+    "communityIds",
+    "category",
+    "title",
+    "summary",
+    "canonicalUrl",
+    "sourceId",
+    "sourceType",
+    "attribution",
+    "participation",
+    "dates",
+    "status",
+    "isSponsored",
+    "tags",
+    "provenanceLog"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 8 },
+    "instanceId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "communityIds": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "community-board",
+        "open-organizer-desk",
+        "builders-corner",
+        "learning-library",
+        "opportunities",
+        "community-voices",
+        "around-the-midwest",
+        "human-side"
+      ]
+    },
+    "title": { "type": "string", "minLength": 3, "maxLength": 140 },
+    "summary": { "type": "string", "minLength": 10, "maxLength": 280 },
+    "canonicalUrl": { "type": "string", "format": "uri" },
+    "alternateUrls": {
+      "type": "array",
+      "items": { "type": "string", "format": "uri" },
+      "default": []
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "mode": { "type": "string", "enum": ["in-person", "virtual", "hybrid"] },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "venueName": { "type": "string" },
+        "address": { "type": "string" }
+      }
+    },
+    "sourceId": { "type": "string" },
+    "sourceType": {
+      "type": "string",
+      "enum": ["firecrawl-discovered", "community-submitted", "organizer-published"]
+    },
+    "attribution": {
+      "type": "object",
+      "required": ["publisherName"],
+      "properties": {
+        "publisherName": { "type": "string" },
+        "authorName": { "type": "string" },
+        "licenseNote": { "type": "string" }
+      }
+    },
+    "participation": {
+      "type": "object",
+      "required": ["mode"],
+      "properties": {
+        "mode": {
+          "type": "string",
+          "enum": [
+            "public-welcome",
+            "rsvp-requested",
+            "registration-required",
+            "observer-only",
+            "async-contribution"
+          ]
+        },
+        "actionUrl": { "type": "string", "format": "uri" },
+        "notes": { "type": "string", "maxLength": 160 }
+      }
+    },
+    "dates": {
+      "type": "object",
+      "required": ["discoveredAt", "lastVerifiedAt"],
+      "properties": {
+        "publishedAt": { "type": "string", "format": "date-time" },
+        "startsAt": { "type": "string", "format": "date-time" },
+        "endsAt": { "type": "string", "format": "date-time" },
+        "discoveredAt": { "type": "string", "format": "date-time" },
+        "lastVerifiedAt": { "type": "string", "format": "date-time" },
+        "expiresAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["pending-review", "approved", "needs-correction", "archived", "removed"]
+    },
+    "humanVerifiedBy": { "type": "string" },
+    "humanVerifiedAt": { "type": "string", "format": "date-time" },
+    "isSponsored": { "type": "boolean", "default": false },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+    },
+    "details": {
+      "type": "object",
+      "properties": {
+        "optInConfirmed": { "type": "boolean" },
+        "repoUrl": { "type": "string", "format": "uri" },
+        "goodFirstIssuesUrl": { "type": "string", "format": "uri" },
+        "playlistUrl": { "type": "string", "format": "uri" },
+        "wifiAvailable": { "type": "boolean" }
+      }
+    },
+    "provenanceLog": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["timestamp", "actor", "action"],
+        "properties": {
+          "timestamp": { "type": "string", "format": "date-time" },
+          "actor": { "type": "string" },
+          "action": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    }
+  }
+}
