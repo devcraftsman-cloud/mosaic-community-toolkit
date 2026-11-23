@@ -1,0 +1,46 @@
+{
+  "id": "study-music-dark-academia-classical-piano",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid",
+    "mosaic"
+  ],
+  "category": "study-music",
+  "title": "Dark Academia & Gothic Classical Piano Study Sessions",
+  "summary": "Atmospheric minor-key classical piano, cello, and nocturnal chamber compositions curated for late-night reading, architecture design, and focused problem solving.",
+  "canonicalUrl": "https://github.com/devcraftsman-cloud/mosaic-community-toolkit",
+  "alternateUrls": [],
+  "sourceId": "organizer-manual",
+  "sourceType": "community-submitted",
+  "attribution": {
+    "publisherName": "CNMid Human Side",
+    "authorName": "The Human Architect"
+  },
+  "participation": {
+    "mode": "async-contribution",
+    "notes": "Submit your favorite coding tracks via GitHub Issues."
+  },
+  "dates": {
+    "discoveredAt": "2026-11-18T15:40:00-06:00",
+    "lastVerifiedAt": "2026-11-18T15:40:00-06:00"
+  },
+  "status": "approved",
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-23T15:31:07.337Z",
+  "isSponsored": false,
+  "tags": [
+    "study-music",
+    "dark-academia",
+    "classical-piano",
+    "instrumental",
+    "focus"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-18T15:40:00-06:00",
+      "actor": "britany",
+      "action": "created-and-verified"
+    }
+  ],
+  "url": "https://www.youtube.com/results?search_query=dark+academia+gothic+classical+piano+study+playlist"
+}

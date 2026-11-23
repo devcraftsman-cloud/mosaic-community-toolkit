@@ -39,7 +39,8 @@
         "opportunities",
         "community-voices",
         "around-the-midwest",
-        "human-side"
+        "human-side",
+        "study-music"
       ]
     },
     "title": { "type": "string", "minLength": 3, "maxLength": 140 },

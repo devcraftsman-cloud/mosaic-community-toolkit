@@ -1,0 +1,46 @@
+{
+  "id": "study-music-tibetan-singing-bowls-brown-noise",
+  "instanceId": "cnmid",
+  "communityIds": [
+    "cnmid",
+    "mosaic"
+  ],
+  "category": "study-music",
+  "title": "Tibetan Singing Bowls & Ambient Brown Noise for Deep Work",
+  "summary": "Continuous resonant singing bowl harmonics and warm brown noise soundscapes engineered to quiet mental clutter during long coding, writing, and study sprints.",
+  "canonicalUrl": "https://github.com/devcraftsman-cloud/mosaic-community-toolkit",
+  "alternateUrls": [],
+  "sourceId": "organizer-manual",
+  "sourceType": "community-submitted",
+  "attribution": {
+    "publisherName": "CNMid Human Side",
+    "authorName": "The Human Architect"
+  },
+  "participation": {
+    "mode": "async-contribution",
+    "notes": "Submit your favorite coding tracks via GitHub Issues."
+  },
+  "dates": {
+    "discoveredAt": "2026-11-18T15:40:00-06:00",
+    "lastVerifiedAt": "2026-11-18T15:40:00-06:00"
+  },
+  "status": "approved",
+  "humanVerifiedBy": "britany",
+  "humanVerifiedAt": "2026-11-23T15:31:07.333Z",
+  "isSponsored": false,
+  "tags": [
+    "study-music",
+    "tibetan-bowls",
+    "brown-noise",
+    "meditation",
+    "deep-work"
+  ],
+  "provenanceLog": [
+    {
+      "timestamp": "2026-11-18T15:40:00-06:00",
+      "actor": "britany",
+      "action": "created-and-verified"
+    }
+  ],
+  "url": "https://www.youtube.com/results?search_query=tibetan+singing+bowls+brown+noise+deep+focus+study"
+}

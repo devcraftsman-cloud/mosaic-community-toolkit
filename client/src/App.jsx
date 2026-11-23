@@ -2,8 +2,8 @@
 import { useMemo, useState } from "react";
 const mods = import.meta.glob("../../instances/cnmid/data/published/*.json", { eager: true });
 const ITEMS = Object.values(mods).map(m => m.default || m);
-const CATS = ["all","community-board","open-organizer-desk","builders-corner","learning-library","opportunities","community-voices","around-the-midwest","human-side"];
-const INTENTS = { all: null, discover: ["community-board","opportunities"], participate: ["open-organizer-desk","builders-corner","learning-library"], explore: ["around-the-midwest","community-voices","human-side"] };
+const CATS = ["all","community-board","open-organizer-desk","builders-corner","learning-library","opportunities","community-voices","around-the-midwest","human-side","study-music"];
+const INTENTS = { all: null, discover: ["community-board","opportunities"], participate: ["open-organizer-desk","builders-corner","learning-library"], explore: ["around-the-midwest","community-voices","human-side","study-music"] };
 
 export default function App() {
   const [intent, setIntent] = useState("all");
