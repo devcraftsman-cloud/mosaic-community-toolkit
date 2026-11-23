@@ -10,7 +10,7 @@
     },
     "primaryGroup": {
       "type": "string",
-      "enum": ["CNMad", "AAIF", "DevFest", "WomenInTech", "MOSAIC"],
+      "enum": ["CNMad", "CNMid", "AAIF", "DevFest", "WomenInTech", "MOSAIC"],
       "description": "The lead host group."
     },
     "title": {

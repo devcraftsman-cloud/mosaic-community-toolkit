@@ -1,0 +1,10 @@
+{
+  "eventId": "example-unknown-group",
+  "primaryGroup": "UnknownGroup",
+  "title": "EXAMPLE ONLY: rejected host fixture",
+  "dateTime": "2027-01-15T18:00:00-06:00",
+  "venue": {
+    "name": "Example venue",
+    "isVirtual": false
+  }
+}
